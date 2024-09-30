@@ -1,0 +1,11 @@
+A - a sequencia aumenta de 2 em 2 , número ímpares consecutivos, Prox 9
+
+B - Cada número é o dobro do anterior, Prox 64x2 = 128
+
+C - Cada número é o quadrado de um número inteiro, Prox 49
+
+D - Cada número é o quadrado de números pares, Prox 100
+
+E - Cada numero é a sequencia de Fibonacci, onde cada número é a soma dos dois anteriores, Prox 13
+
+F - o Prox número será 20, pois ele pula uma sequencia de números

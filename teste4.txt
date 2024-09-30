@@ -1,0 +1,38 @@
+Modelo Lógico do banco de dados (com os campos apontados como chaves primarias e estrangeira)
+
+Clientes
+
+ID_Cliente (PK) - Identificador único do cliente
+Razao_Social - Nome ou razão social do cliente
+Estado (FK) - Código do estado onde o cliente está cadastrado (referencia a tabela Estados)
+
+Telefones
+
+ID_Telefone (PK) - Identificador único do telefone
+Numero - Número do telefone
+Tipo - Tipo do telefone (ex: comercial, residencial, celular)
+ID_Cliente (FK) - Identificador do cliente que possui o telefone (referencia a tabela Clientes)
+
+Estados
+
+Codigo (PK) - Código do estado (ex: "SP" para São Paulo)
+Nome - Nome do estado
+
+Relacionamentos
+
+Clientes (1) ----- (N) Telefones: Um cliente pode ter vários telefones.
+Estados (1) ----- (N) Clientes: Um estado pode ter vários clientes.
+
+Comando SQL
+
+SELECT 
+    c.ID_Cliente,
+    c.Razao_Social,
+    t.Numero,
+    t.Tipo
+FROM 
+    Clientes c
+JOIN 
+    Telefones t ON c.ID_Cliente = t.ID_Cliente
+WHERE 
+    c.Estado = 'SP';

@@ -1,0 +1,5 @@
+Calculando a velocidade total, 90km/h + 80km/h temos 170km/h
+vamos diviver o tempo em que eles se encontraram 125km/170km/h
+e temos a distancia percorrida, como o carro teve 3 paradas, vamos adicionar mais 15 minutos no seu percurso 
+44 + 15 = 59 o do caminhão foi em 44 minutos  com base na soma das velocidades,
+o carro percorreu 88,5km e esta mais proximo de Ribeirão Preto, já o caminhão não
